@@ -6,5 +6,6 @@ services:
     image: almondsh/almond:latest
     ports:
       - 8888:8888
+      - 4040:4040
     volumes:
       - ./notebooks:/home/jovyan/notebooks
